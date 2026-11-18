@@ -1,0 +1,10 @@
+*{box-sizing:border-box}
+body{width:345px;margin:0;padding:18px;background:#18111e;color:#fdf2ff;font:13px system-ui}
+h1{font-size:20px;margin:0 0 14px}
+label{display:block;margin:9px 0}
+input{accent-color:#e198f9}
+textarea{width:100%;resize:vertical;background:#25192c;color:inherit;border:1px solid #795787;border-radius:8px;padding:9px;font:inherit}
+p{color:#e0cce8;margin:8px 0 12px}
+button{border:1px solid #795787;background:#302039;color:inherit;padding:8px 11px;border-radius:7px;cursor:pointer;font-weight:600}
+button[type=submit]{background:#e198f9;color:#211029;border-color:transparent}
+#status{margin-bottom:0;min-height:1em}

@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "GTA 6 Spoiler Kalkanı",
+  "version": "1.0.0",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*",
+        "https://www.youtube.com/*",
+        "https://m.youtube.com/*"
+      ],
+      "js": [
+        "settings.js",
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "description": "X ve YouTube'da GTA 6 spoilerlarını anahtar kelimelerle filtreler.",
+  "icons": {
+    "128": "icon128.png"
+  }
+}
