@@ -1,18 +1,19 @@
-# GTA 6 Spoiler Kalkanı
+# GTA 6 Spoiler Shield
 
-GTA 6 spoilerlarına karşı X ve YouTube için Chrome eklentisi.
+A Chrome extension that helps you avoid GTA 6 spoilers on X and YouTube.
 
-- X’te listedeki ifadelerle eşleşen gönderileri bulanıklaştırır.
-- YouTube’da eşleşen video başlıklarını ve kapaklarını bulanıklaştırır.
-- Eklenti menüsünde kelime listesini satır satır veya virgülle ayırarak topluca düzenleyebilirsin.
+- **X (Twitter):** Blurs posts that match your keyword list.
+- **YouTube:** Blurs video titles and thumbnails when the title matches a keyword.
+- **Bulk editing:** Paste keywords and phrases separated by newlines or commas. A starter list is enabled automatically.
+- **Reveal on demand:** Select **Show spoiler** to reveal an individual post or video card.
 
-## Chrome’a kurulum
+## Install in Chrome
 
-1. GitHub’da **Code → Download ZIP** ile kaynak kodu indir ve ZIP’i aç.
-2. Chrome’da `chrome://extensions` sayfasını aç ve **Geliştirici modu**nu etkinleştir.
-3. **Paketlenmemiş öğe yükle** düğmesine bas ve `manifest.json` dosyasının bulunduğu klasörü seç.
-4. Açık X ve YouTube sekmelerini yenile.
+1. On GitHub, select **Code → Download ZIP** and extract the archive.
+2. Open `chrome://extensions` and enable **Developer mode**.
+3. Select **Load unpacked** and choose the folder containing `manifest.json`.
+4. Refresh any open X or YouTube tabs.
 
-## Gizlilik
+## Privacy
 
-Ayarlar cihazda saklanır. [Gizlilik politikası](gizlilik-politikasi.md)
+Settings are stored on your device. See the [privacy policy](PRIVACY.md).

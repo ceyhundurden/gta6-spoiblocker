@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "GTA 6 Spoiler Kalkanı",
-  "version": "1.0.0",
+  "name": "GTA 6 Spoiler Shield",
+  "version": "1.0.1",
   "permissions": [
     "storage"
   ],
@@ -26,7 +26,7 @@
       "run_at": "document_start"
     }
   ],
-  "description": "X ve YouTube'da GTA 6 spoilerlarını anahtar kelimelerle filtreler.",
+  "description": "Avoid GTA 6 spoilers by blurring matching posts on X and video titles and thumbnails on YouTube.",
   "icons": {
     "128": "icon128.png"
   }

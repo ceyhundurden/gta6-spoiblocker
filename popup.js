@@ -8,7 +8,7 @@ async function initialize() {
 }
 field("reset").addEventListener("click", () => {
   field("terms").value = defaults.terms;
-  feedback.textContent = "Uygulamak için Kaydet’e bas.";
+  feedback.textContent = "Select Save to apply the starter list.";
 });
 document.querySelector("form").addEventListener("submit", async event => {
   event.preventDefault();
@@ -18,9 +18,9 @@ document.querySelector("form").addEventListener("submit", async event => {
       x: field("x").checked, youtube: field("youtube").checked, terms: terms.join("\n")
     });
     field("terms").value = terms.join("\n");
-    feedback.textContent = terms.length + " ifade kaydedildi.";
+    feedback.textContent = terms.length + " keywords saved.";
   } catch {
-    feedback.textContent = "Kaydedilemedi. Tekrar dene.";
+    feedback.textContent = "Could not save settings. Try again.";
   }
 });
-initialize().catch(() => { feedback.textContent = "Ayarlar yüklenemedi."; });
+initialize().catch(() => { feedback.textContent = "Could not load settings."; });

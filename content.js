@@ -29,7 +29,7 @@ function scan() {
       button = document.createElement("button");
       button.className = "gta-reveal";
       button.type = "button";
-      button.textContent = "Spoilerı göster";
+      button.textContent = "Show spoiler";
       card.append(button);
     }
     button.onclick = event => {
